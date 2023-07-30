@@ -21,7 +21,7 @@ function App () {
     })
   }
   return (
-    <div className="App bg-slate-800 text-stone-50 w-screen h-screen">
+    <div className="App bg-slate-800 text-stone-50 w-screen min-h-screen h-full">
       <h1 className="text-8xl p-8">Hello</h1>
      {content}
     </div>
