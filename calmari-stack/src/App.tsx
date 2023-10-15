@@ -4,6 +4,7 @@ import CardItem from "./components/CardItem";
 import { PokemonCard } from "./types/pokemonCards";
 import { cards } from "./types/utilities/dummyData";
 import ColorPalette from "./components/ColorPalette";
+import { Outlet } from "react-router-dom";
 
 function App() {
   const { isLoading, isError, data, error } = useQuery({
@@ -25,6 +26,7 @@ function App() {
     <div className="App bg-slate-800 text-stone-50 w-screen min-h-screen h-full">
       {/* <ul className="flex flex-col items-center bg-red">{content}</ul> */}
       <ColorPalette />
+      <Outlet />
     </div>
   );
 }
