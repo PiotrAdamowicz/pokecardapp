@@ -1,23 +1,7 @@
-# Vite + React 18 + TS + TailwindCSS + ESLint
+# Pokemon TCG Collector App
 
-This is a starter template for React (TypeScript) using Vite. I've also added TailwindCSS so you can style your app without writing CSS code, and ESLint to analyze your code and suggest some optimizations.
+The idea is to have simple app tracking your TCG collection.
 
-You can find more about these technologies in the following links: [Vite](https://vitejs.dev/), [React](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/), [TailwindCSS](https://tailwindcss.com/), [Eslint](https://eslint.org/).
+## API used:
 
-## How to install
-
-Just run the next command in a terminal (make sure that you have installed NPM).
-
-```
-npx degit dserranoc/vite-reactts18-eslint-tailwindcss project-name
-```
-
-## How to start
-
-After the installation of the dependencies run:
-
-```
-npm run dev
-```
-
-Made with ❤️ by Daniel Serrano Cobos
+https://docs.pokemontcg.io/api-reference/cards/get-card/
